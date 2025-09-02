@@ -1,5 +1,6 @@
 i=1
 r=1
+""" fonction qui permet d'ecrire le factoriel d'un entier """
 def factoriel(i,r):
     i=1
     r=1
@@ -7,6 +8,7 @@ def factoriel(i,r):
         r=r*i
         i+=1
     return r 
+
 def multiple (i):
     for i in range(1,51):
         if i%3==0:
@@ -21,3 +23,4 @@ def multiple (i):
 n=int(input("entrez un nombre:"))
 print("le factoriel est",factoriel(i,r))
 print(multiple(i))
+
